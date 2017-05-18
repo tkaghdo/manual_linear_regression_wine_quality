@@ -10,14 +10,10 @@ formula: y = mx + b. Where y is th predicted variable which is our data is "qual
 # Data
 https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
 
-# Citation
-Data provided by
-P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
-Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
-
 # Analysis
 The script generates a column that represents that predicted wine quality. Below is an example of the data set with
 the prediction column
+
 |fixed acidity  |volatile acidity  |citric acid  |residual sugar  |chlorides  |free sulfur dioxide  |total sulfur dioxide  |density    |pH  |sulphates|alcohol  |quality  |predicted_quality|
 |--------------:|-----------------:|------------:|---------------:|----------:|--------------------:|---------------------:|----------:|---:|--------:|--------:|--------:|----------------:|
 |            7.0|              0.27|         0.36|            20.7|      0.045|   45.0              |   170.0   		   |	1.0010 |3.00|     0.45|8.8      |  6      |     5.243802    |
@@ -40,6 +36,11 @@ what percentage of actual y values are within 2 standard errors of the predicted
 
 what percentage of actual y values are within 3 standard errors of the predicted y value?
 **0.993670886076**
+
+# Citation
+Data provided by
+P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
+Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
 
 
 
